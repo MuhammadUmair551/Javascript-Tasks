@@ -70,17 +70,27 @@
 // console.log(myself)
 
 // Ques 4
+// function getDetails() {
+//     function Person(Name, gender, address, education, profession) {
+//         this.name = Name,
+//             this.genderBata = gender,
+//             this.addressKiaha = address,
+//             this.kahaTakParhayHo = education,
+//             this.kaamkiaKartyHo = profession
+//     }
 
-function Person(Name, gender, address, education, profession) {
-    this.name = Name,
-    this.genderBata = gender,
-    this.addressKiaha = address,
-    this.kahaTakParhayHo = education,
-    this.kaamkiaKartyHo = profession
-}
+//     var naam = document.querySelector("#Name").value;
+//     var pata = document.querySelector("#addresss").value;
+//     var professionn = document.querySelector("#profession").value;
+//     var educationn = document.querySelector("#education").value;
+//     var genderr = document.querySelector('input[name="gender"]:checked').value;
 
-var naam = document.querySelector("#Name:").value;
-var pata = document.querySelector("#addresss").value;
-var profession = document.querySelector("#profession").value;
-var education = document.querySelector("#education").value;
-var gender = document.querySelector('input[name="gender"]:checked').value;
+//     var storage = JSON.parse(localStorage.getItem("newperson")) || [];
+
+//     var newPerson = new Person(naam, genderr, pata, educationn, professionn);
+
+//     storage.push(newPerson);
+
+//     localStorage.setItem("newperson", JSON.stringify(storage));
+// }
+
